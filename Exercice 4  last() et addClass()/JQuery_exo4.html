@@ -1,0 +1,34 @@
+Exercice 4 : last() et addClass()
+Mettre une couleur de fond orange au dernier des 3
+paragraphes
+Exemple :
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .couleur{
+            background-color: orange;
+        }
+    </style>
+    <script src="../jquery-3.4.1.js"></script>
+</head>
+<body>    
+    <p>HTML</p>
+    <p>JavaScript</p>
+    <p>CSS</p>
+
+
+    <script>
+        $("p").last().addClass("couleur");
+    </script>
+</body>
+</html>
+
+
+
