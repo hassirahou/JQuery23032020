@@ -1,0 +1,45 @@
+Exercice 3 : click(), css() et html()
+Afficher la couleur du fond d'un des quatre div en cliquant
+sur un div.
+Exemple de quatre div :
+<div style="background-color:red;"></div>
+<div style="background-color:rgb(16,99,30);"></div>
+<div style="background-color:#523456;"></div>
+<div style="background-color:#a11;"></div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jquery-3.4.1.js"></script>
+</head>
+<body>
+    
+    <div id="div1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, velit maiores dolorum dolores sed numquam! At aliquid perferendis autem beatae. Nam aperiam nobis explicabo, perspiciatis laudantium officia? Perspiciatis, recusandae cumque.</div>
+
+    <div id="div2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, officiis nisi magnam incidunt molestias amet nihil debitis harum eum quia obcaecati voluptate quaerat labore quisquam reprehenderit nesciunt. Ducimus, delectus quas!</div>
+
+    <div id="div3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae expedita temporibus pariatur saepe, molestiae rem dolore, necessitatibus cupiditate id nobis alias a quaerat, velit quisquam! Fuga quae libero nemo ratione?</div>
+
+    <div id="div4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, repellat adipisci nisi culpa, modi ipsam delectus non eos recusandae magnam enim quos eum officiis necessitatibus facere, odit deserunt illo rerum?</div>
+
+
+
+
+            <script> 
+                
+            $("div").click(function() { 
+            $("div").html(function() { 
+                        
+                        $("#div1").css("background-color" , "red");
+                        $("#div2").css("background-color" , "rgb(16,99,30");
+                        $("#div3").css("background-color" , "#523456");
+                        $("#div4").css("background-color" , "#a11"); 
+            }); 
+                }); 
+            
+            </script> 
+</body>
+</html>

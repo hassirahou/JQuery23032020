@@ -1,0 +1,36 @@
+<!-- Exercice 1 : click(), css() et add()
+Créer une bordure rouge de 2px autour de deux textareas
+qui s'affichera au clic sur un bouton.
+Puis ajouter deux paragraphes à l'objet jQuery avec une
+bordure rouge de 2px au clic sur le même bouton. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jquery-3.4.1.js"></script>
+</head>
+<body>
+
+    <textarea class="area" id="t1" cols="30" rows="10"></textarea>
+    <textarea class="area" id="t2" cols="30" rows="10"></textarea>
+    <button >Click</button>
+
+    <h1 id="parag1">Hello it's me ! </h1>
+    
+<p id="parag2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime hic inventore iste corrupti, iure sapiente magni! Dolores, nihil nisi libero sed ex debitis repudiandae eaque non unde suscipit vero aut.</p>
+
+
+    <script>
+                $("button").click(function(){
+                    $("textarea").add("#parag2").add("#parag1").css("border", "2px solid red");
+ 
+                });
+                
+    </script>
+   
+</body>
+</html>
+

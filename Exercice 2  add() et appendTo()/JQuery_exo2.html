@@ -1,0 +1,29 @@
+<!-- Exercice 2 : add() et appendTo()
+Créer un élément contenant du texte ajouté après un
+paragraphe -->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Exercice 2</title>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+ 
+<span> more to say... </span>
+ 
+<div id="ajouté">
+    <h1>I have nothing !</h1>
+</div>
+ 
+<script>
+   
+$( "span" ).add ("div")
+.appendTo( "#ajouté" );
+
+</script>
+ 
+</body>
+</html>
