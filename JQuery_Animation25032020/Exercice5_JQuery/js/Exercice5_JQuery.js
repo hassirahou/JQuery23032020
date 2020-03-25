@@ -1,0 +1,1 @@
+$(document).ready(function(){ setInterval(function(){ $('.divExo5').show(1000, function() { }); $('.divExo5').hide(1000, function() { }); }); });

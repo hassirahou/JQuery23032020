@@ -1,0 +1,1 @@
+$(document).ready(function(){ $('.divExo4').fadeIn(3000,'linear'); $('.divExo4').fadeOut(3000,'swing'); });

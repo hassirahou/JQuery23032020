@@ -1,0 +1,1 @@
+$(document).ready(function(){ $(".buttonExo2").click(function(){ $(".divExo2_1").toggleClass("main"); $(".divExo2_1").slideToggle(2000); $(".divExo2_2").toggleClass("main"); $(".divExo2_2").slideToggle(2000); }); });

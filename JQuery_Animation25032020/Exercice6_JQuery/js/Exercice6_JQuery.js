@@ -1,0 +1,1 @@
+$(document).ready(function(){ $(".buttonExo6").click(function(){ $(".divExo6").slideToggle(1000); jQuery.fx.off = true; jQuery.fx.off = false; }); });

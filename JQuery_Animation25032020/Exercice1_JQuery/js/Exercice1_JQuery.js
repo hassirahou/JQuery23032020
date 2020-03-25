@@ -1,0 +1,1 @@
+$(document).ready(function(){ $('.divExo1').animate({ marginLeft: '50px', }, 1000); $('.divExo1').animate({ marginLeft: '0px' }, 1000); });
